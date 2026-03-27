@@ -2,28 +2,27 @@
 
 body{
     background-color: black;
+    box-sizing: border-box;
 }
 
 img{
+    box-sizing: border-box;
     width:50%;
     height: auto;
-    margin-left: 25%;
-    margin-left: 25%;
-    margin-top: 10%;
-    /* margin-bottom: 10%; */
+    margin-left: 25vw;
+    margin-left: 25vw;
+    margin-top: 10vh;
 }
 
 button{
     display: block;
-    /* margin: 0 auto; */
-    margin-left: 25%;
-    margin-right: 25%;
-    /* margin-top: 0px; */
+    box-sizing: border-box;
+    margin-left: 25vw;
+    margin-right: 25vw; 
     padding: 40px 100px;
     width: 50%;
     height: auto;
     font-size: 36px;
-    /* background-color: white; */
     background: linear-gradient(to right, rgb(255, 29, 240), rgb(9, 98, 251));
     color: black;
     border: none;
